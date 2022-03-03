@@ -45,6 +45,12 @@
       <img src="./assets/img/sakura/parts_03.png" class="parts_17">
       <img src="./assets/img/sakura/parts_04.png" class="parts_18">
       <img src="./assets/img/sakura/parts_05.png" class="parts_19">
+      <img src="./assets/img/sakura/parts_01.png" class="parts_20">
+      <img src="./assets/img/sakura/parts_02.png" class="parts_21">
+      <img src="./assets/img/sakura/parts_03.png" class="parts_22">
+      <img src="./assets/img/sakura/parts_04.png" class="parts_23">
+      <img src="./assets/img/sakura/parts_05.png" class="parts_24">
+      <img src="./assets/img/sakura/parts_06.png" class="parts_25">
     </div>
   </div>
     <router-view></router-view>
@@ -294,6 +300,35 @@ export default {
       left: 93%;
     }
 
+    img.parts_20 {
+      top: 0;
+      left: 93%;
+    }
+
+    img.parts_21 {
+      top: 0;
+      left: 93%;
+    }
+
+    img.parts_22 {
+      top: 0;
+      left: 93%;
+    }
+
+    img.parts_23 {
+      top: 0;
+      left: 93%;
+    }
+
+    img.parts_24 {
+      top: 0;
+      left: 93%;
+    }
+
+    img.parts_25 {
+      top: 0;
+      left: 93%;
+    }
     @keyframes sakura {
       0% {
         opacity: 0;
@@ -364,19 +399,25 @@ export default {
     img.parts_11,
     img.parts_13,
     img.parts_16,
-    img.parts_19 {
+    img.parts_19,
+    img.parts_22,
+    img.parts_25 {
       -webkit-animation-delay: 0.5s;
       animation-delay: 0.5s;
     }
 
     img.parts_14,
-    img.parts_17 {
+    img.parts_17,
+    img.parts_20,
+    img.parts_23 {
       -webkit-animation-delay: 2s;
       animation-delay: 2s;
     }
 
     img.parts_15,
-    img.parts_18 {
+    img.parts_18,
+    img.parts_21,
+    img.parts_24 {
       -webkit-animation-delay: 5s;
       animation-delay: 5s;
     }

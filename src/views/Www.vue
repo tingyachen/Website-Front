@@ -1,6 +1,5 @@
 <template>
   <div id="www">
-  <b-container>
     <b-row>
       <b-col cols="12">
         <carousel :perPage="3">
@@ -67,7 +66,6 @@
         </carousel>
       </b-col>
     </b-row>
-  </b-container>
 </div>
 </template>
 <script>
@@ -102,7 +100,11 @@ export default ({
 })
 </script>
 <style >
-.row {
+#www {
+  width: 1140px;
+  height: 780px;
+}
+#www .row {
   margin-top:100px;
 }
 .card-title {

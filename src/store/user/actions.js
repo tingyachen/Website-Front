@@ -33,13 +33,15 @@ export const logout = async ({ commit, state }) => {
     swal.fire({
       icon: 'success',
       title: '成功',
-      text: '登出成功'
+      text: '登出成功',
+      iconColor: '#b56bc2'
     })
   } catch (error) {
     swal.fire({
       icon: 'error',
       title: '失敗',
-      text: error.response.data.message
+      text: error.response.data.message,
+      iconColor: '#FFC0C0'
     })
   }
 }

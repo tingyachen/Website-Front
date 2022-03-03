@@ -1,6 +1,6 @@
 <template lang="pug">
 #adminproduct
-  b-btn.my-3(block variant='success' v-b-modal.modal-product) 新增
+  b-btn.my-3(pill block variant="success" v-b-modal.modal-product) 新增
   b-table(:items="products" :fields='fields' ref='table')
     template(#cell(image)='data')
       img(v-if='data.item.image' :src='data.item.image' style='height: 50px')

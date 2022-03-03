@@ -109,13 +109,15 @@ export default ({
         this.$swal({
           icon: 'success',
           title: '成功',
-          text: '登入成功'
+          text: '登入成功',
+          iconColor: '#b56bc2'
         })
         this.$router.push('/')
       } catch (error) {
         this.$swal({
           icon: 'error',
           title: '錯誤',
+          iconColor: '#FFC0C0',
           text: error.response.data.message
         })
       }
@@ -126,6 +128,7 @@ export default ({
         this.$swal({
           icon: 'success',
           title: '成功',
+          iconColor: '#b56bc2',
           text: '註冊成功'
         })
         this.$router.push('/')
@@ -133,6 +136,7 @@ export default ({
         this.$swal({
           icon: 'error',
           title: '錯誤',
+          iconColor: '#FFC0C0',
           text: error.response.data.message
         })
       }
